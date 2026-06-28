@@ -1,0 +1,308 @@
+{
+  "source_repo": "/Users/yihaiwen/Documents/New project/ai-infra-learning",
+  "total_links": 42,
+  "counts_by_category": {
+    "internal_doc": 2,
+    "repo_anchor": 20,
+    "github_repo": 6,
+    "course_or_training": 7,
+    "blog_or_resource": 5,
+    "report": 2
+  },
+  "links": [
+    {
+      "file": "README.md",
+      "line": 11,
+      "title": "AI Infrastructure 基础知识完全指南",
+      "url": "./ai-infrastructure-fundamentals.md",
+      "category": "internal_doc"
+    },
+    {
+      "file": "README.md",
+      "line": 19,
+      "title": "MLOps 工具完全指南",
+      "url": "./mlops-tools-guide.md",
+      "category": "internal_doc"
+    },
+    {
+      "file": "README.md",
+      "line": 45,
+      "title": "什么是AI Infrastructure",
+      "url": "#什么是ai-infrastructure",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "README.md",
+      "line": 46,
+      "title": "GitHub精选项目",
+      "url": "#github精选项目",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "README.md",
+      "line": 47,
+      "title": "在线课程和教程",
+      "url": "#在线课程和教程",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "README.md",
+      "line": 48,
+      "title": "学习资源和博客",
+      "url": "#学习资源和博客",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "README.md",
+      "line": 49,
+      "title": "行业报告",
+      "url": "#行业报告",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "README.md",
+      "line": 50,
+      "title": "如何贡献",
+      "url": "#如何贡献",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "README.md",
+      "line": 66,
+      "title": "AI-Infra-from-Zero-to-Hero",
+      "url": "https://github.com/HuaizhengZhang/AI-Infra-from-Zero-to-Hero",
+      "category": "github_repo"
+    },
+    {
+      "file": "README.md",
+      "line": 74,
+      "title": "awesome-ai-infrastructure",
+      "url": "https://github.com/awesomelistsio/awesome-ai-infrastructure",
+      "category": "github_repo"
+    },
+    {
+      "file": "README.md",
+      "line": 80,
+      "title": "awesome-ai-infrastructures",
+      "url": "https://github.com/1duo/awesome-ai-infrastructures",
+      "category": "github_repo"
+    },
+    {
+      "file": "README.md",
+      "line": 86,
+      "title": "awesome-opensource-ai",
+      "url": "https://github.com/alvinreal/awesome-opensource-ai",
+      "category": "github_repo"
+    },
+    {
+      "file": "README.md",
+      "line": 89,
+      "title": "awesome-ai-apps",
+      "url": "https://github.com/Arindam200/awesome-ai-apps",
+      "category": "github_repo"
+    },
+    {
+      "file": "README.md",
+      "line": 104,
+      "title": "AI Infrastructure and Operations Fundamentals - NVIDIA (Coursera)",
+      "url": "https://www.coursera.org/learn/ai-infrastructure-operations-fundamentals",
+      "category": "course_or_training"
+    },
+    {
+      "file": "README.md",
+      "line": 109,
+      "title": "The Complete Guide to AI Infrastructure: Zero to Hero (Udemy)",
+      "url": "https://www.udemy.com/course/complete-guide-ai-infrastructure/",
+      "category": "course_or_training"
+    },
+    {
+      "file": "README.md",
+      "line": 114,
+      "title": "NVIDIA Training Academy",
+      "url": "https://www.nvidia.com/en-us/training/academy/",
+      "category": "course_or_training"
+    },
+    {
+      "file": "README.md",
+      "line": 118,
+      "title": "Cisco AI Solutions on Cisco Infrastructure Essentials (DCAIE)",
+      "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/dcaie.html",
+      "category": "course_or_training"
+    },
+    {
+      "file": "README.md",
+      "line": 122,
+      "title": "Google Cloud AI Infrastructure",
+      "url": "https://www.skills.google/paths/2806",
+      "category": "course_or_training"
+    },
+    {
+      "file": "README.md",
+      "line": 128,
+      "title": "AI-Powered IT Operations and Infrastructure (Udemy)",
+      "url": "https://www.udemy.com/course/ai-powered-it-operations-and-infrastructure/",
+      "category": "course_or_training"
+    },
+    {
+      "file": "README.md",
+      "line": 129,
+      "title": "NCP-AII: NVIDIA Certified Professional - AI Infrastructure (Udemy)",
+      "url": "https://www.udemy.com/course/ncp-aii-nvidia-certified-professional-ai-infrastructure/",
+      "category": "course_or_training"
+    },
+    {
+      "file": "README.md",
+      "line": 135,
+      "title": "AI Infrastructure 101: Building the Foundation for ML - RudderStack",
+      "url": "https://www.rudderstack.com/blog/ai-infrastructure/",
+      "category": "blog_or_resource"
+    },
+    {
+      "file": "README.md",
+      "line": 140,
+      "title": "AI Infrastructure Explained - Splunk",
+      "url": "https://www.splunk.com/en_us/blog/learn/ai-infrastructure.html",
+      "category": "blog_or_resource"
+    },
+    {
+      "file": "README.md",
+      "line": 144,
+      "title": "AI Infrastructure Tutorial & Best Practices - Nexla",
+      "url": "https://nexla.com/ai-infrastructure/",
+      "category": "blog_or_resource"
+    },
+    {
+      "file": "README.md",
+      "line": 149,
+      "title": "7 Strategies for Efficient AI Deployments - Tailscale",
+      "url": "https://tailscale.com/learn/ai-infra-ai-deployment",
+      "category": "blog_or_resource"
+    },
+    {
+      "file": "README.md",
+      "line": 154,
+      "title": "AI Infrastructure Learning Resources - F5",
+      "url": "https://www.f5.com/learn/ai/infrastructure",
+      "category": "blog_or_resource"
+    },
+    {
+      "file": "README.md",
+      "line": 163,
+      "title": "2025 State of AI Infrastructure Report - Google Cloud",
+      "url": "https://cloud.google.com/resources/content/state-of-ai-infrastructure",
+      "category": "report"
+    },
+    {
+      "file": "README.md",
+      "line": 167,
+      "title": "State of AI Infrastructure Report 2025 - Flexential",
+      "url": "https://www.flexential.com/resources/report/2025-state-ai-infrastructure",
+      "category": "report"
+    },
+    {
+      "file": "README.md",
+      "line": 236,
+      "title": "ai-research-writing-prompts",
+      "url": "https://github.com/heaven999b/ai-research-writing-prompts",
+      "category": "github_repo"
+    },
+    {
+      "file": "ai-infrastructure-fundamentals.md",
+      "line": 7,
+      "title": "什么是AI Infrastructure",
+      "url": "#什么是ai-infrastructure",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "ai-infrastructure-fundamentals.md",
+      "line": 8,
+      "title": "核心组件详解",
+      "url": "#核心组件详解",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "ai-infrastructure-fundamentals.md",
+      "line": 9,
+      "title": "训练基础设施",
+      "url": "#训练基础设施",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "ai-infrastructure-fundamentals.md",
+      "line": 10,
+      "title": "推理部署架构",
+      "url": "#推理部署架构",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "ai-infrastructure-fundamentals.md",
+      "line": 11,
+      "title": "数据基础设施",
+      "url": "#数据基础设施",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "ai-infrastructure-fundamentals.md",
+      "line": 12,
+      "title": "扩展策略",
+      "url": "#扩展策略",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "ai-infrastructure-fundamentals.md",
+      "line": 13,
+      "title": "可观测性与监控",
+      "url": "#可观测性与监控",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "mlops-tools-guide.md",
+      "line": 7,
+      "title": "分布式训练工具",
+      "url": "#分布式训练工具",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "mlops-tools-guide.md",
+      "line": 8,
+      "title": "模型服务部署",
+      "url": "#模型服务部署",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "mlops-tools-guide.md",
+      "line": 9,
+      "title": "MLOps平台",
+      "url": "#mlops平台",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "mlops-tools-guide.md",
+      "line": 10,
+      "title": "数据管理工具",
+      "url": "#数据管理工具",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "mlops-tools-guide.md",
+      "line": 11,
+      "title": "优化工具",
+      "url": "#优化工具",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "mlops-tools-guide.md",
+      "line": 12,
+      "title": "基础设施即代码",
+      "url": "#基础设施即代码",
+      "category": "repo_anchor"
+    },
+    {
+      "file": "mlops-tools-guide.md",
+      "line": 13,
+      "title": "云平台服务",
+      "url": "#云平台服务",
+      "category": "repo_anchor"
+    }
+  ]
+}
