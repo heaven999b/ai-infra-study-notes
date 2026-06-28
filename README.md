@@ -1,56 +1,90 @@
-# AI Infra 学习资料（个人整理版）
+# AI Infra 学习导航
 
-这套资料不是“链接导航站”，而是把 [`ai-infra-learning`](https://github.com/heaven999b/ai-infra-learning) 里的核心知识、实践代码、外部资源价值点重新整理成一条更适合自己学习和复习的路径。
+这不是简单的资料堆，而是一套按“先看什么、再学什么、遇到问题去哪翻”的个人学习导航。
 
-## 最近新增
+如果你想从零开始，先走 `主手册 -> 精读版 -> 代码 -> 计划` 这条线。  
+如果你已经在看 Agent、Harness、LLM 系统，直接跳到下面对应入口就行。
 
-- `06-微信资料整理入口.md`：两篇重要微信学习资料的识别状态、来源信息和后续整理入口。
-- `07-两篇微信资料学习提要.md`：两篇微信资料的主题拆解、可学内容、以及和本机可运行项目的对应关系。
-- `upstream-learning-sources/`：筛过一轮的上游学习资料快照，保留文档、源码和关键图示，去掉 Git 历史、演示视频和大体积附件。
+## Start Here
 
-## 先读这个
+1. [AI-Infra-直读学习手册.md](./AI-Infra-%E7%9B%B4%E8%AF%BB%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C.md)
+2. [Awesome-Lists-精读版.md](./Awesome-Lists-%E7%B2%BE%E8%AF%BB%E7%89%88.md)
+3. [03-code-cookbook.md](./03-code-cookbook.md)
+4. [05-study-plan.md](./05-study-plan.md)
 
-- `AI-Infra-直读学习手册.md`：单文件、连续阅读版，不需要先点很多链接。
-- `Awesome-Lists-精读版.md`：把几个 awesome lists 真正消化成可直接阅读的工具图谱和项目地图。
+## 按目标找入口
 
-## 你现在有什么
+### 我想先建立全局框架
 
-- `AI-Infra-直读学习手册.md`：把概念、系统、代码、案例揉成一份可直接阅读的主手册。
-- `Awesome-Lists-精读版.md`：把 `awesome-ai-infrastructure`、`awesome-ai-infrastructures`、`awesome-opensource-ai`、`awesome-ai-apps` 重写成可学习内容。
-- `01-learning-map.md`：先看全局，知道 AI Infra 到底学什么。
-- `02-core-knowledge.md`：把核心概念压成一份可反复复习的知识底稿。
-- `03-code-cookbook.md`：只保留最值得自己动手敲的代码和命令。
-- `04-source-digests.md`：把原仓库里的外链都变成“这个链接值得学什么”。
-- `05-study-plan.md`：给你一个能执行的 6 周学习方案。
-- `06-微信资料整理入口.md`：记录这次微信资料识别、抓取尝试和后续处理规则。
-- `07-两篇微信资料学习提要.md`：把两篇微信文章压成可执行学习建议。
-- `upstream-learning-sources/`：适合继续深挖的上游原始资料快照。
-- `source-link-index.json`：原仓库 Markdown 链接索引，方便你后续继续扩展。
+- [01-learning-map.md](./01-learning-map.md)
+- [02-core-knowledge.md](./02-core-knowledge.md)
+- [AI-Infra-直读学习手册.md](./AI-Infra-%E7%9B%B4%E8%AF%BB%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C.md)
 
-## 推荐阅读顺序
+### 我想快速看工具和项目地图
 
-1. 先读 `AI-Infra-直读学习手册.md`
-2. 再读 `Awesome-Lists-精读版.md`
-3. 然后用 `03-code-cookbook.md` 边学边动手
-4. 需要扩展阅读时查 `04-source-digests.md`
-5. 最后按 `05-study-plan.md` 去排自己的节奏
+- [Awesome-Lists-精读版.md](./Awesome-Lists-%E7%B2%BE%E8%AF%BB%E7%89%88.md)
+- [04-source-digests.md](./04-source-digests.md)
+- [upstream-learning-sources/README.md](./upstream-learning-sources/README.md)
 
-## 这套资料的整理原则
+### 我想动手，不想只看概念
 
-- 不再按“原始链接顺序”学习，而是按“概念 -> 系统 -> 代码 -> 生产实践”学习。
-- 不把所有资源一视同仁，而是明确区分：
-  - 哪些适合建立知识框架
-  - 哪些适合看代码和工具
-  - 哪些适合了解行业趋势
-  - 哪些只适合当补充材料
-- 优先保留你以后真的会反复回看的内容：系统设计问题、代码骨架、工具选型、常见权衡。
+- [03-code-cookbook.md](./03-code-cookbook.md)
+- [05-study-plan.md](./05-study-plan.md)
+- [upstream-learning-sources/awesome-ai-apps-curated](./upstream-learning-sources/awesome-ai-apps-curated)
 
-## 仓库说明
+### 我现在在学 Agent / Harness
 
-- 这个 GitHub 仓库会优先保存“我真正会回看的学习笔记”。
-- 本地 `sources/` 目录包含下载下来的上游参考仓库，体积较大，因此默认不纳入 GitHub 版本库。
-- `upstream-learning-sources/` 是从 `sources/` 里整理出来的“可公开、可阅读、体积更合理”的精选版本。
+- [07-两篇微信资料学习提要.md](./07-%E4%B8%A4%E7%AF%87%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0%E6%8F%90%E8%A6%81.md)
+- [06-微信资料整理入口.md](./06-%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E5%85%A5%E5%8F%A3.md)
+- [upstream-learning-sources/awesome-ai-apps-curated](./upstream-learning-sources/awesome-ai-apps-curated)
+
+### 我想继续深挖原始资料
+
+- [upstream-learning-sources/AI-Infra-from-Zero-to-Hero](./upstream-learning-sources/AI-Infra-from-Zero-to-Hero)
+- [upstream-learning-sources/awesome-ai-infrastructure](./upstream-learning-sources/awesome-ai-infrastructure)
+- [upstream-learning-sources/awesome-ai-infrastructures](./upstream-learning-sources/awesome-ai-infrastructures)
+- [upstream-learning-sources/awesome-opensource-ai](./upstream-learning-sources/awesome-opensource-ai)
+
+## 仓库里都有什么
+
+| 类型 | 文件/目录 | 作用 |
+|---|---|---|
+| 主线阅读 | [AI-Infra-直读学习手册.md](./AI-Infra-%E7%9B%B4%E8%AF%BB%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C.md) | 一份连续读下来的主手册 |
+| 生态地图 | [Awesome-Lists-精读版.md](./Awesome-Lists-%E7%B2%BE%E8%AF%BB%E7%89%88.md) | 把 awesome lists 重写成可学内容 |
+| 框架笔记 | [01-learning-map.md](./01-learning-map.md), [02-core-knowledge.md](./02-core-knowledge.md) | 建立全局地图和核心概念 |
+| 动手入口 | [03-code-cookbook.md](./03-code-cookbook.md) | 值得自己敲的代码和命令 |
+| 原始资料索引 | [04-source-digests.md](./04-source-digests.md) | 告诉你每个来源最值得学什么 |
+| 学习节奏 | [05-study-plan.md](./05-study-plan.md) | 6 周执行版学习计划 |
+| 微信专题 | [06-微信资料整理入口.md](./06-%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E5%85%A5%E5%8F%A3.md), [07-两篇微信资料学习提要.md](./07-%E4%B8%A4%E7%AF%87%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0%E6%8F%90%E8%A6%81.md) | Agent / Harness 学习专题 |
+| 上游快照 | [upstream-learning-sources](./upstream-learning-sources) | 筛过一轮、适合继续深挖的资料快照 |
+
+## 推荐学习路线
+
+### 路线 A：完全从零开始
+
+1. [01-learning-map.md](./01-learning-map.md)
+2. [02-core-knowledge.md](./02-core-knowledge.md)
+3. [AI-Infra-直读学习手册.md](./AI-Infra-%E7%9B%B4%E8%AF%BB%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C.md)
+4. [03-code-cookbook.md](./03-code-cookbook.md)
+
+### 路线 B：已经懂一点，想快速补生态
+
+1. [Awesome-Lists-精读版.md](./Awesome-Lists-%E7%B2%BE%E8%AF%BB%E7%89%88.md)
+2. [04-source-digests.md](./04-source-digests.md)
+3. [upstream-learning-sources/README.md](./upstream-learning-sources/README.md)
+
+### 路线 C：现在重点学 Agent / Harness
+
+1. [07-两篇微信资料学习提要.md](./07-%E4%B8%A4%E7%AF%87%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0%E6%8F%90%E8%A6%81.md)
+2. [03-code-cookbook.md](./03-code-cookbook.md)
+3. [upstream-learning-sources/awesome-ai-apps-curated](./upstream-learning-sources/awesome-ai-apps-curated)
+
+## 关于上游资料
+
+- 公开仓库里保留的是 [upstream-learning-sources](./upstream-learning-sources) 这份精选快照。
+- 它保留了文档、源码、配置、notebook 和关键图示。
+- 它去掉了 Git 历史、演示视频、样例数据库和大体积附件。
 
 ## 一句话理解 AI Infra
 
-AI Infra 不是“买几张 GPU”这么简单，它是把计算、存储、网络、训练框架、数据管道、模型服务、监控治理和成本控制，拼成一个可以稳定支撑训练与推理的系统。
+AI Infra 不是“买几张 GPU”，而是把计算、存储、网络、训练框架、数据管道、模型服务、监控治理和成本控制拼成一个能稳定支撑训练与推理的系统。
