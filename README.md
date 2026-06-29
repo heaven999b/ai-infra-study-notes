@@ -24,6 +24,7 @@
 
 - [Awesome-Lists-精读版.md](./Awesome-Lists-%E7%B2%BE%E8%AF%BB%E7%89%88.md)
 - [04-source-digests.md](./04-source-digests.md)
+- [08-中文开源教程与实战资源补充.md](./08-%E4%B8%AD%E6%96%87%E5%BC%80%E6%BA%90%E6%95%99%E7%A8%8B%E4%B8%8E%E5%AE%9E%E6%88%98%E8%B5%84%E6%BA%90%E8%A1%A5%E5%85%85.md)
 - [upstream-learning-sources/README.md](./upstream-learning-sources/README.md)
 
 ### 我想动手，不想只看概念
@@ -36,7 +37,15 @@
 
 - [07-两篇微信资料学习提要.md](./07-%E4%B8%A4%E7%AF%87%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0%E6%8F%90%E8%A6%81.md)
 - [06-微信资料整理入口.md](./06-%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E5%85%A5%E5%8F%A3.md)
+- [08-中文开源教程与实战资源补充.md](./08-%E4%B8%AD%E6%96%87%E5%BC%80%E6%BA%90%E6%95%99%E7%A8%8B%E4%B8%8E%E5%AE%9E%E6%88%98%E8%B5%84%E6%BA%90%E8%A1%A5%E5%85%85.md)
+- [09-Skill设计与skill-creator学习笔记.md](./09-Skill%E8%AE%BE%E8%AE%A1%E4%B8%8Eskill-creator%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 - [upstream-learning-sources/awesome-ai-apps-curated](./upstream-learning-sources/awesome-ai-apps-curated)
+
+### 我想写自定义 Skill
+
+- [09-Skill设计与skill-creator学习笔记.md](./09-Skill%E8%AE%BE%E8%AE%A1%E4%B8%8Eskill-creator%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+- [07-两篇微信资料学习提要.md](./07-%E4%B8%A4%E7%AF%87%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0%E6%8F%90%E8%A6%81.md)
+- [08-中文开源教程与实战资源补充.md](./08-%E4%B8%AD%E6%96%87%E5%BC%80%E6%BA%90%E6%95%99%E7%A8%8B%E4%B8%8E%E5%AE%9E%E6%88%98%E8%B5%84%E6%BA%90%E8%A1%A5%E5%85%85.md)
 
 ### 我想继续深挖原始资料
 
@@ -56,6 +65,8 @@
 | 原始资料索引 | [04-source-digests.md](./04-source-digests.md) | 告诉你每个来源最值得学什么 |
 | 学习节奏 | [05-study-plan.md](./05-study-plan.md) | 6 周执行版学习计划 |
 | 微信专题 | [06-微信资料整理入口.md](./06-%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E5%85%A5%E5%8F%A3.md), [07-两篇微信资料学习提要.md](./07-%E4%B8%A4%E7%AF%87%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0%E6%8F%90%E8%A6%81.md) | Agent / Harness 学习专题 |
+| 中文资源补充 | [08-中文开源教程与实战资源补充.md](./08-%E4%B8%AD%E6%96%87%E5%BC%80%E6%BA%90%E6%95%99%E7%A8%8B%E4%B8%8E%E5%AE%9E%E6%88%98%E8%B5%84%E6%BA%90%E8%A1%A5%E5%85%85.md) | Datawhale、Unsloth、ms-swift、LLaMA-Factory 等中文学习与实战入口 |
+| Skill 专题 | [09-Skill设计与skill-creator学习笔记.md](./09-Skill%E8%AE%BE%E8%AE%A1%E4%B8%8Eskill-creator%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md) | 自定义 Skill 的定义、结构、约束、分层和落地流程 |
 | 上游快照 | [upstream-learning-sources](./upstream-learning-sources) | 筛过一轮、适合继续深挖的资料快照 |
 
 ## 推荐学习路线
@@ -76,8 +87,9 @@
 ### 路线 C：现在重点学 Agent / Harness
 
 1. [07-两篇微信资料学习提要.md](./07-%E4%B8%A4%E7%AF%87%E5%BE%AE%E4%BF%A1%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0%E6%8F%90%E8%A6%81.md)
-2. [03-code-cookbook.md](./03-code-cookbook.md)
-3. [upstream-learning-sources/awesome-ai-apps-curated](./upstream-learning-sources/awesome-ai-apps-curated)
+2. [09-Skill设计与skill-creator学习笔记.md](./09-Skill%E8%AE%BE%E8%AE%A1%E4%B8%8Eskill-creator%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+3. [03-code-cookbook.md](./03-code-cookbook.md)
+4. [upstream-learning-sources/awesome-ai-apps-curated](./upstream-learning-sources/awesome-ai-apps-curated)
 
 ## 关于上游资料
 
